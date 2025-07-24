@@ -41,6 +41,12 @@ A full walkthrough of the setup and usage process.
 ### 8. Enabling Apache modules and site
 ![Enabling Apache modules and site](screenshots/enabling-apache-modules-and-site.png)
 
+### 8. Completing installation in browser
+![Enabling Apache modules and site](screenshots/completing-installation-.png)
+
+### 9. Installation completed
+![Enabling Apache modules and site](screenshots/nextcloudhomepage.png)
+
 
 
 
