@@ -37,18 +37,40 @@ A full walkthrough of the setup and usage process.
 
 ### 7. Creating Apache configuration 
 ![Apache configuration file](screenshots/creating-apache-configuration-file.png)
+![Apache configuration file](screenshots/apache-configuration-file.png)
+
 
 ### 8. Enabling Apache modules and site
 ![Enabling Apache modules and site](screenshots/enabling-apache-modules-and-site.png)
 
-### 8. Completing installation in browser
-![Enabling Apache modules and site](screenshots/completing-installation-.png)
 
 ### 9. Installation completed
-![Enabling Apache modules and site](screenshots/nextcloudhomepage.png)
+![Enabling Apache modules and site](screenshots/nextcloud-homepage.png)
 
 
+### 10. DHCP Reservation setup (Router)
+![DHCP Reservation setup](screenshots/dhcp-res-setup.png)
 
+### 11. Adding a Local Hostname
+![](screenshots/setting-a-local-domain.png)
+
+### 12. Editing Apache configuration file
+![](screenshots/apache-configuration-file-domain.png)
+
+### 13. Testing connection security with wireshark
+![](screenshots/insecure-server.png)
+
+### 14. HTTPS Configuration (Self-Signed Certificate)
+![](screenshots/local-https-self-signed-certificate.png)
+
+### 15. Creating a New Apache HTTPS Virtual Host
+ ![](screenshots/ssl-config-apache.png)
+
+### 15. Enabling HTTPS Site
+ ![](screenshots/creating-ssl-config-apache.png)
+
+### 16. Testing HTTPS connection security with wireshark
+   ![Testing HTTPS connection security with wireshark](screenshots/secure-server.png)
 
 ---
 
@@ -70,10 +92,3 @@ A full walkthrough of the setup and usage process.
 - System hardened as part of cybersecurity practice
 
 ---
-
-## 📚 How to Deploy
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/romulo-feitosa/nextcloud-lan-https-security-demo.git
-   cd nextcloud-lan-https-security-demo
