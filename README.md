@@ -9,8 +9,6 @@ This project is part of my home lab, designed to enhance my skills in Linux serv
 
 - 📂 Private file hosting and sharing with Nextcloud
 - 🔐 HTTPS secured via self-signed certificate or LAN-compatible CA
-- 🧱 Firewall rules and port restrictions for LAN-only access
-- 👥 Multi-user support with group-based permissions
 - 📸 Step-by-step visual guide with screenshots
 
 ---
@@ -19,43 +17,32 @@ This project is part of my home lab, designed to enhance my skills in Linux serv
 
 A full walkthrough of the setup and usage process.
 
-### 1. Starting the Docker Stack
-![Startup](screenshots/insecure-server.png)
+### 1. Updating system Packages
+![Update](screenshots/update-packages.png)
 
----
+### 2. Downloading NextCloud
+![Download](screenshots/download-nextcloud.png)
 
-### 2. Accessing the Web Interface (HTTPS in Browser)
-![HTTPS Access](screenshots/02-https-browser.png)
+### 3. Moving NextCloud Folder
+![Moving NextCloud Folder](screenshots/moving-nextcloud-folder.png)
 
----
+### 4. Installing Apache, Maria and PHP extensions
+![Apache, Mariadb and PHP extensions](screenshots/apache-mariadb-extensions-installation.png)
 
-### 3. Nextcloud Initial Setup Screen
-![Nextcloud Setup](screenshots/03-nextcloud-setup.png)
+### 5. Configuring NextCloud database (Mariadb)
+![Download](screenshots/nextcloud-database.png)
 
----
+### 6. Setting Permissions
+![Download](screenshots/setting-permissions.png)
 
-### 4. Creating Admin Account
-![Admin Account Creation](screenshots/04-create-admin.png)
+### 7. Creating Apache configuration 
+![Apache configuration file](screenshots/creating-apache-configuration-file.png)
 
----
+### 8. Enabling Apache modules and site
+![Enabling Apache modules and site](screenshots/enabling-apache-modules-and-site.png)
 
-### 5. Nextcloud Dashboard After Login
-![Dashboard](screenshots/05-dashboard.png)
 
----
 
-### 6. Uploading Files
-![File Upload](screenshots/06-upload-file.png)
-
----
-
-### 7. Enforcing HTTPS in Browser
-![HTTPS Lock Icon](screenshots/07-https-lock.png)
-
----
-
-### 8. UFW Firewall Rules Active
-![Firewall Rules](screenshots/08-ufw.png)
 
 ---
 
